@@ -1,7 +1,29 @@
-Crea un programa que:
+Vamos a usar el programa de la edad, porque ya lo conoces.
 
-Pregunte el año de nacimiento
+🔹 PASO 1
 
-Calcule la edad usando el año actual
+Crea una función que clasifique la edad
+(Esta ya la sabes hacer)
 
-Diga si es menor, adulto o jubilado
+Debe:
+
+recibir una edad
+
+devolver "Menor", "Adulto" o "Jubilado"
+
+👉 SOLO eso.
+👉 No input, no print.
+
+🔹 PASO 2
+
+Crea una función main() que haga todo lo demás:
+
+Dentro de main():
+
+Pide el año de nacimiento (input)
+
+Calcula la edad
+
+Llama a la función del paso 1
+
+Imprime el resultado
