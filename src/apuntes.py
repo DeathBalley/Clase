@@ -119,3 +119,32 @@ edad = anio_actual - anio_nacimiento
 
     main()
 
+    def main():
+        archivo = open("src/datos.txt", "r")
+        lineas = archivo.readlines()
+        archivo.close()
+
+        for linea in lineas:
+            nombre = linea.strip()
+            print(f"Hola {nombre}")
+
+    main()
+    #forma limpia de comprobar archivos
+    with open("src/datos.txt", "r") as archivo:
+        for linea in archivo:
+            nombre = linea.strip()
+            if nombre.startswith("V"):
+                print(f"Hola {nombre}")
+
+#ejercicio 2
+    def main():
+        archivo = open("src/datos.txt", "r")
+        lineas = archivo.readlines()
+        archivo.close()
+
+        for linea in lineas:
+            nombre = linea.strip()
+            if nombre.startswith("V"):
+                print(f"Hola {nombre}")
+    main()
+

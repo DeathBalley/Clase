@@ -1,29 +1,13 @@
-Vamos a usar el programa de la edad, porque ya lo conoces.
+Haz que el programa:
 
-🔹 PASO 1
+Lea datos.txt
 
-Crea una función que clasifique la edad
-(Esta ya la sabes hacer)
+Salude solo a los nombres que empiezan por "V"
 
-Debe:
+Ignore el resto
 
-recibir una edad
+Pista:
 
-devolver "Menor", "Adulto" o "Jubilado"
+ya sabes startswith("V")
 
-👉 SOLO eso.
-👉 No input, no print.
-
-🔹 PASO 2
-
-Crea una función main() que haga todo lo demás:
-
-Dentro de main():
-
-Pide el año de nacimiento (input)
-
-Calcula la edad
-
-Llama a la función del paso 1
-
-Imprime el resultado
+ya sabes if

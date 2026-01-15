@@ -4,6 +4,8 @@ def main():
     archivo.close()
 
     for linea in lineas:
-        print(linea)
-
+        nombre = linea.strip()
+        if nombre.startswith("V"):
+            print(f"Hola {nombre}")
 main()
+
