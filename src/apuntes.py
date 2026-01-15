@@ -148,3 +148,30 @@ edad = anio_actual - anio_nacimiento
                 print(f"Hola {nombre}")
     main()
 
+#meter y mirar datos
+    def guardar_nombre(nombre):
+        archivo = open("src/datos.txt", "a")
+        archivo.write(nombre + "\n")
+        archivo.close()
+
+    def main():
+        while True:
+            print("1. Añadir nombre")
+            print("2. Ver nombres")
+            print("3. Salir")
+
+            opcion = input("Elige una opción: ")
+
+            if opcion == "1":
+                nombre = input("Escribe un nombre: ")
+                guardar_nombre(nombre)
+                print("Nombre guardado")
+
+            elif opcion == "3":
+                print("Saliendo...")
+                break
+
+            else:
+                print("Opción no implementada todavía")
+
+    main()
